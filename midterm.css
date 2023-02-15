@@ -1,0 +1,133 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727),rgba(0, 0, 0, 0.7)) , url(images/911gt3.jpg);
+    background-size: 100% auto;
+}
+.textbox {
+    border: 10px;
+    color: white;
+}
+
+.logo {
+    position: fixed;
+    top: 10;
+    left: 0;
+}
+
+#image-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    transition-duration: 0.4s;
+    position: fixed;
+    top: 230;
+    left: 30;
+}
+
+#video-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    transition-duration: 0.4s;
+    position: fixed;
+    top: 300;
+    left: 30;
+}
+
+#audio-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    transition-duration: 0.4s;
+    position: fixed;
+    top: 370;
+    left: 30;
+}
+
+#build-your-own-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    transition-duration: 0.4s;
+    position: fixed;
+    top: 440;
+    left: 30;
+}
+
+#dealerships-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    transition-duration: 0.4s;
+    position: fixed;
+    top: 510;
+    left: 30;
+}
+
+#col-and-row-span-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: white;
+    transition-duration: 0.4s;
+    position: fixed;
+    top: 10;
+    left: 1030;
+}
+
+#image-button:hover {
+    color: red;
+}
+
+#video-button:hover {
+    color:red;
+}
+
+#audio-button:hover {
+    color: red;
+}
+
+#build-your-own-button:hover {
+    color: red;
+}
+
+#dealerships-button:hover {
+    color: red;
+}
+
+#col-and-row-span-button:hover {
+    color:red;
+}
+
