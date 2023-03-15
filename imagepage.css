@@ -1,0 +1,83 @@
+body {
+    background-color: #121212;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+#Porsche-911-GT3 img {
+    width: 30%;
+    height: 30%;
+    margin: 0.5%;
+}
+
+#Porsche-911-GT3 th {
+    padding: 10px;
+}
+
+span {
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+
+#Porsche-911-Turbo-S img {
+    width: 30%;
+    height: 30%;
+    margin: 0.5%;
+}
+
+#Porsche-911-Turbo-S th {
+    padding: 10px;
+}
+
+#spacing {
+    height: 80px;
+}
+
+#go-to-top {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#back-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    transition-duration: 0.4s;
+    top: 20;
+    left: 48;
+}
+
+#back-button:hover {
+    color: red;
+}
+
+#go-to-top:hover {
+    color: red;
+}
